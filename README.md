@@ -1,4 +1,7 @@
 # TF2ServerForNoobs
+
+### Please note, script is currently in a private-alpha stage of development, and will not be commited to this repository until it is functional.
+
 An all-in-1 TF2 server installation script. From fresh linux install to working Team Fortress 2 dedicated server in minutes!
 
 This is the easiest to use "one-click" installer for a dedicated TF2 server!
