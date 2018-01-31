@@ -1,4 +1,3 @@
-
 # Frequently Asked Questions Page
 
 ## Who are you?
@@ -37,7 +36,7 @@ If it is a legitimate TF2 competitive league (regardless of format), create an i
 
 If it is a widely-used plugin I will consider adding it. Create an issue with the label "plugin" containing any necessary information. If you create the request for a recently developed plugin, it is very unlikely that I will include it in this project, unless it is strongly supported by various, reputable members of the TF2 community.
 
-## Can I use this script to create an MVM server?
+## Can I use this script to create an MvM server?
 
 Yes.
 
