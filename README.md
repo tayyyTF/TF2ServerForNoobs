@@ -6,7 +6,7 @@ An all-in-1 TF2 server installation script. From fresh linux install to working 
 
 This is the easiest to use "one-click" installer for a dedicated TF2 server!
 
-This project was initially started to allow people to use cloud-based virtual private servers for hosting their own TF2 servers. Take advantage of cheaper, hourly billing by being able to quickly and effortlessly spin-up and destroy, a dedicated TF2 server.
+This project was initially started to allow people to use cloud-based virtual private servers for hosting their own TF2 servers. Take advantage of cheaper, hourly billing by being able to quickly and effortlessly spin-up and destroy a dedicated TF2 server.
 
 No more messing around with SteamCMD. No more visiting serveme.tf and seeing nothing available for rent. Why pay to operate a server 24/7 when you only need it for a few hours a day?
 
