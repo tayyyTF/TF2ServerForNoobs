@@ -1,14 +1,20 @@
 # TF2ServerForNoobs
 
-### Please note, script is currently in a private-alpha stage of development, and will not be commited to this repository until it is functional.
+### Please note, the script is currently in a private-alpha stage of development, and will not be commited to this repository until it is functional.
 
-An all-in-1 TF2 server installation script. From fresh linux install to working Team Fortress 2 dedicated server in minutes!
+An all-in-1 TF2 server installation script. From fresh linux install to working Team Fortress 2 dedicated server in minutes! Only 1 console command!
 
 This is the easiest to use "one-click" installer for a dedicated TF2 server!
 
-This project was initially started to allow people to use cloud-based virtual private servers for hosting their own TF2 servers. Take advantage of cheaper, hourly billing by being able to quickly and effortlessly spin-up and destroy a dedicated TF2 server.
+This project was initially started to allow people to use short-term cloud-based virtual private servers for hosting their own TF2 servers. Take advantage of cheaper, hourly billing by being able to quickly and effortlessly spin-up and destroy a dedicated TF2 server.
 
-No more messing around with SteamCMD. No more visiting serveme.tf and seeing nothing available for rent. Why pay to operate a server 24/7 when you only need it for a few hours a day?
+#### Are you a competitive player? Need a scrim/match/practice server?
+
+No more messing around with SteamCMD. No more visiting serveme.tf and seeing nothing available for rent. No more expensive monthly dedicated hosting. Why pay to operate a server 24/7 when you only need it for a few hours a day? Just start-up a fresh VPS, run the script, and you will have a fully configured server, ready-to-go in minutes!
+
+#### Do you run a 24/7 community server?
+
+Fear not, although this script was designed to save money by not having paid servers sit idle, you should still use it! This script fully installs a dedicated server in 1 command, and automatically installs a variety of popular plugins. It is much easier to use than SteamCMD and installing plugins manually. Additionally, you retain access to your server using LinuxGSM, so there is no risk to using my script.
 
 # Benefits:
 
@@ -44,3 +50,4 @@ Additionally, I only use Ubuntu Server for running/testing this script. I cannot
 # Possible Future Features
 - FastDL support
 - Mumble quick-install functionality
+- gameME stats plugin automatic installation
