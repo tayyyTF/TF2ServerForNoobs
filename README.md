@@ -24,7 +24,7 @@ Fear not, although this script was designed to save money by not having paid ser
 
 - Cron-jobs are setup to take care of automatic maintenance if you want to leave the server running for long periods of time.
 
-- No slot limitation. You can use this script to make a server for purpose you wish; highlander, 6s, or a 32-person instant respawn pubs.
+- No slot limitation. You can use this script to make a server for any purpose you wish; highlander, 6s, or a 32-person instant respawn pubs.
 
 - Retain full access to the server console. This script abstracts the already convenient LinuxGSM (found here: https://gameservermanagers.com/). You retain full control over your server using LinuxGSM.
 
