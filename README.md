@@ -19,6 +19,11 @@ No more messing around with SteamCMD. No more visiting serveme.tf and seeing not
 
 - Retain full access to the server console. This script abstracts the already convenient LinuxGSM (found here: https://gameservermanagers.com/). You retain full control over your server using LinuxGSM.
 
+# Requirements
+
+- A server running a recent version of Ubuntu Linux (preferably 32-bit, although 64-bit does work), with the ability to run bash scripts.
+- Root access to said server
+
 # Other Tips
 
 You will need to enter your API key(s) in the installation script for logs.tf and demos.tf for the auto-upload functionality to work.
@@ -33,3 +38,4 @@ Additionally, I only use Ubuntu Server for running/testing this script. I cannot
 
 # Possible Future Features
 - FastDL support
+- Mumble quick-install functionality
