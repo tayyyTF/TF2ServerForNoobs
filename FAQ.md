@@ -18,13 +18,21 @@ Run it as root.
 
 ## Why doesn't this script install custom maps for me?
 
-It may become a feature in the future, but for now it is infeasible and beyond the scope of this project to operate a database of custom map downloads.
+It may become a feature in the future, but for now it is infeasible and beyond the scope of this project to operate a database of custom map downloads. You will have to manually find all the custom maps you wish to use.
+
+## Can you add this other league's configs/whitelists/rulesets into this script?
+
+If it is a legitimate TF2 competitive league (regardless of format), create an issue labelled "Ruleset", with information about how I can access the offical ruleset of the league, and I will add it to the other Configs/whitelists/rulesets that accompany this script. Configs/whitelists/rulesets for pub servers/randomizer servers/x10 servers etc. will not be accepted at this time.
+
+## Can I use this script to create an MVM server?
+
+Yes.
 
 ## Can you recommend me a VPS host?
 
 I have used Vultr for hosting in the past and have personally had good experiences. If you decide to use them, you can use my [affiliate link](https://www.vultr.com/?ref=7321517); it does not cost you anything, and it greatly helps me continue the development and maintenance of this software, as well as other projects related to competitive TF2. Other common hosts (that I have not personally used) are Linode, Digital Ocean, Amazon Lightsail, TragicServers, Amazon Web Services, Microsoft Azure, Google Cloud Compute, and many more, each at their own level of reliability/price. I am not paid to promote, or endorsed by any of these services.
 
-## Why would I use this instead of using a TF2 server hosting site?
+## Why would I use this instead of using a dedicated TF2 server hosting site?
 
 If you subscribe to monthly server hosting, you are paying to run the server 24/7, even when it is completely empty. With my script, you only run the server for the amount of time you absolutely need, and therefore, can save significant amounts of money. Additionally, this script does not have slot limits which most dedicated hosts do.
 
@@ -32,11 +40,17 @@ You can run a cheap and low-performance 24/7 server with 12 fixed slots, or you 
 
 ## Isn't dedicated TF2 hosting easier to use?
 
-For most people, yes. This will require marginally more effort than handing over a credit-card to a dedicated TF2 hosting provider, although there are many benefits to using my script as outlined in the readme and above, particularly in the areas of availability, cost, and performance.
+For most people, yes. This script will require marginally more effort than handing over a credit-card to a dedicated TF2 hosting provider. There are many benefits to using my script as outlined in the readme and above, particularly in the areas of availability, cost, and performance.
 
 This script only requires 1 command on a standard Ubuntu computer, which you can copy-paste, so it is pretty much as easy as it gets.
 
 You save money here by sacrificing a small amount of convenience.
+
+## Can I still use this script if I want to run my server 24/7?
+
+Yes! The script makes installing a TF2 server from scratch extremely easy. Although the benefits of using it are most apparent when you are using short-lived VPS hosting, it works perfectly fine for running a 24/7 server as well.
+
+In fact, since my script installs many of the common plugins and whitelists/rulesets for you, it is still easier and quicker to use it instead of using SteamCMD.
 
 ## Do I offer technical support for this script?
 
