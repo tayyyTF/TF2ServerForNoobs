@@ -72,7 +72,9 @@ Additionally, no paid support will be offered any time soon, if ever.
 
 ## How often are the whitelists/rulesets in this script updated?
 
-I will generally update every season, or during a season if someone alerts about major changes. The whitelists/rulesets/league configurations used by the script are hosted in this repository, so you can check them at any time to see if they have been updated. 
+I will generally update them manually every season, or during a season if someone alerts me to major changes. The whitelists/rulesets/league configurations used by the script are hosted in this repository, so you can check them at any time to see if they have been updated.
+
+I am working on getting whitelist.tf integration so that whitelists will always be up-to-date.
 
 ## Can I contribute code to this project?
 
