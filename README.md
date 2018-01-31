@@ -37,7 +37,7 @@ It is recommended that you save a copy of this script onto your computer with yo
 
 This project is malware free, but it is always a good idea to verify the installation script yourself before running it.
 
-This server does not come with any custom/pro/jump maps. You will have to transfer them to the server after it is up and running using any method of your choice.
+This script does not come with or install any custom/pro/jump maps. You will have to transfer them to the server after it is up and running using any method of your choice (Eg. FTP).
 
 Additionally, I only use Ubuntu Server for running/testing this script. I cannot verify/predict its success on other flavors of linux, so YMMV. If significant demand exists, I will create distro-specific versions of this script.
 
