@@ -24,8 +24,10 @@ No more messing around with SteamCMD. No more visiting serveme.tf and seeing not
 
 # Requirements
 
-- A server running a recent version of Ubuntu Linux (preferably 32-bit, although 64-bit does work), with the ability to run bash scripts.
+- A computer running a recent version of Ubuntu Linux (preferably 32-bit, although 64-bit does work), with the ability to run bash scripts.
 - Root access to said server
+
+Note: For people inexperienced with linux servers, the install script will work fine on Ubuntu Desktop as well, although note that running a graphical user interface requires a significantly greater amount of resources. As such, you may need a higher performance VPS to host your server if you experience performance issues. I highly recommend choosing a cloud host that will automatically install the operating system for you, so that all you need to do is login and run my script.
 
 # Other Tips
 
