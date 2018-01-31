@@ -10,7 +10,7 @@ This project was initially started to allow people to use short-term cloud-based
 
 #### Are you a competitive player? Need a scrim/match/practice server?
 
-No more messing around with SteamCMD. No more visiting serveme.tf and seeing nothing available for rent. No more expensive monthly dedicated hosting. Why pay to operate a server 24/7 when you only need it for a few hours a day? Just start-up a fresh VPS, run the script, and you will have a fully configured server, ready-to-go in minutes!
+No more messing around with SteamCMD. No more visiting serveme.tf and seeing nothing available for rent. No more expensive monthly dedicated hosting. Why pay to operate a server 24/7 when you only need it for a few hours a day? Just start-up a fresh VPS, run the script, and you will have a fully configured, competitive-ready server in minutes!
 
 #### Do you run a 24/7 community server?
 
@@ -18,7 +18,7 @@ Fear not, although this script was designed to save money by not having paid ser
 
 # Benefits:
 
-- Various competitive league configurations are included, ready to be used immediately. This includes both rulesets, as well as item, whitelists. Additionally, there is a script included for a 32-person pub.
+- Various competitive league configurations are included (ESEA, ETF2L, UGC, Ultiduo, 4s, ozfortress), ready to be used immediately. This includes both rulesets, as well as item whitelists. Additionally, there are rulesets for various types of community servers (instant respawn, no-crit, no-spread, 24/7, etc. or a combination of multiple).
 
 - Plugins/integrations such as Sourcemod, cURL, SoapDM, MGE, Demos.tf (with auto-upload), LogsTF (with auto-upload), SupStats2, MedicStats, Pause, RecordSTV, WaitForStv, AFK, RestoreScore, FixStvSlot, and Updater. Original source and descriptions of many plugins: http://www.teamfortress.tv/13598/
 
