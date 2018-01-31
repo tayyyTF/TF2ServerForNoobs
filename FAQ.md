@@ -64,11 +64,15 @@ Yes! The script makes installing a TF2 server from scratch extremely easy. Altho
 
 In fact, since my script installs many of the common plugins and whitelists/rulesets for you, it is still easier and quicker to use it instead of using SteamCMD.
 
-## Do I offer technical support for this script?
+## Do you offer technical support for this script?
 
-It is designed to be ran without modification on (up to date) Ubuntu Linux computers. As a result, I will not offer any support of any kind for other flavors of linux. Additionally, I will not provide support for how to modify this script as that goes against its main purpose anyways. Bug reports can be filed in this repository and I will investigate them.
+It is designed to be ran without modification on (up to date) Ubuntu Linux computers. As a result, I will not offer any support of any kind for other flavors of linux. Additionally, I will not provide support for how to modify this script as that goes against its main purpose anyways. Bug reports can be filed in this repository and I will investigate them. Generally, I can answer questions relating to issues you have.
 
 Additionally, no paid support will be offered any time soon, if ever.
+
+## How often are the whitelists/rulesets in this script updated?
+
+I will generally update every season, or during a season if someone alerts about major changes. The whitelists/rulesets/league configurations used by the script are hosted in this repository, so you can check them at any time to see if they have been updated. 
 
 ## Can I contribute code to this project?
 
@@ -80,7 +84,7 @@ Yes. You can do anything the MIT license allows you to.
 
 ## Can I donate to this project?
 
-I made this project for my own hosting convenience, and for my general love of TF2 and the community. You are not required to donate at all, and in fact, I would encourage you donate to a local charity instead. If you would like to send me TF2 items, you can [use my trade URL](https://steamcommunity.com/tradeoffer/new/?partner=69070534&token=xF6It4c5), and I will add your name to a list of "Project Contributors" in this repository.
+I made this project for my own convenience, and for my general love of TF2 and the community. You are not required to donate at all, and in fact, I would encourage you donate to a local charity instead. If you would like to send me TF2 items, you can [use my trade URL](https://steamcommunity.com/tradeoffer/new/?partner=69070534&token=xF6It4c5), and I will add your name to a list of "Project Contributors" in this repository.
 
 ## Where does this script download all of the plugins from?
 
