@@ -11,7 +11,7 @@ No more messing around with SteamCMD. No more visiting serveme.tf and seeing not
 
 - Various competitive league configurations are included, ready to be used immediately. This includes both rulesets, as well as item, whitelists. Additionally, there is a script included for a 32-person pub.
 
-- Plugins/integrations such as Sourcemod, cURL, SoapDM, MGE, Demos.tf (with auto-upload), LogsTF (with auto-upload), SupStats2, MedicStats, Pause, RecordSTV, WaitForStv, AFK, RestoreScore, FixStvSlot, and Updater. Original source of many plugins: http://www.teamfortress.tv/13598/
+- Plugins/integrations such as Sourcemod, cURL, SoapDM, MGE, Demos.tf (with auto-upload), LogsTF (with auto-upload), SupStats2, MedicStats, Pause, RecordSTV, WaitForStv, AFK, RestoreScore, FixStvSlot, and Updater. Original source and descriptions of many plugins: http://www.teamfortress.tv/13598/
 
 - Cron-jobs are setup to take care of automatic maintenance if you want to leave the server running for long periods of time.
 
