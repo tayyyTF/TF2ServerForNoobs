@@ -1,3 +1,4 @@
+
 # Frequently Asked Questions Page
 
 ## Who are you?
@@ -8,7 +9,15 @@ A competitive TF2 player with experience in programming, servers, and cloud host
 
 Yes.
 
-## Why doesn't this script work on <insert linux distro here>?
+## How much does this script cost?
+
+It is released free of charge, and is fully open source. See the license file for more details.
+
+## Why did you develop this script?
+
+I needed something with this functionality, but it didn't exist so I made it myself. Additionally, my experience using software such as Ansible/Puppet/Docker led to the inspiration for this project.
+
+## Why doesn't this script work on \<insert linux distro here>?
 
 It may or it may not. I make no guarantees and the script was only tested by me using Ubuntu.
 
@@ -18,11 +27,15 @@ Run it as root.
 
 ## Why doesn't this script install custom maps for me?
 
-It may become a feature in the future, but for now it is infeasible and beyond the scope of this project to operate a database of custom map downloads. You will have to manually find all the custom maps you wish to use.
+It may become a feature in the future, but for now it is infeasible and beyond the scope of this project to operate a database of custom map downloads. You will have to manually find/download all of the custom maps you wish to use.
 
-## Can you add this other league's configs/whitelists/rulesets into this script?
+## Can you add \<other league>'s configs/whitelists/rulesets into this script?
 
-If it is a legitimate TF2 competitive league (regardless of format), create an issue labelled "Ruleset", with information about how I can access the offical ruleset of the league, and I will add it to the other Configs/whitelists/rulesets that accompany this script. Configs/whitelists/rulesets for pub servers/randomizer servers/x10 servers etc. will not be accepted at this time.
+If it is a legitimate TF2 competitive league (regardless of format), create an issue labelled "ruleset", with information about how I can access the offical ruleset of the league, and I will add it to the other Configs/whitelists/rulesets that accompany this script. Configs/whitelists/rulesets for pub servers/randomizer servers/x10 servers etc. will not be accepted at this time.
+
+## Can you add \<insert plugin here> support?
+
+If it is a widely-used plugin I will consider adding it. Create an issue with the label "plugin" containing any necessary information. If you create the request for a recently developed plugin, it is very unlikely that I will include it in this project, unless it is strongly supported by various, reputable members of the TF2 community.
 
 ## Can I use this script to create an MVM server?
 
