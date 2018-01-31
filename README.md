@@ -12,7 +12,7 @@ This project was initially started to allow people to use short-term cloud-based
 
 No more messing around with SteamCMD. No more visiting serveme.tf and seeing nothing available for rent. No more expensive monthly dedicated hosting. Why pay to operate a server 24/7 when you only need it for a few hours a day? Just start-up a fresh VPS, run the script, and you will have a fully configured, competitive-ready server in minutes!
 
-#### Do you run a 24/7 community server?
+#### Do you need a 24/7 community server?
 
 Fear not, although this script was designed to save money by not having paid servers sit idle, you should still use it! This script fully installs a dedicated server in 1 command, and automatically installs a variety of popular plugins. It is much easier to use than SteamCMD and installing plugins manually. Additionally, you retain access to your server using LinuxGSM, so there is no risk to using my script.
 
