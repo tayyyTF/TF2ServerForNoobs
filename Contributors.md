@@ -1,1 +1,3 @@
-# A list of all the extremely generous people who have contributed to this project, either through donations, time, or code. This project wouldn't be possible without all of you. 
+# List of Project Contributors 
+
+## This wouldn't be possible without all of you. Thank you for all of your contributions! 
