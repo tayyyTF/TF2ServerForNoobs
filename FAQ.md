@@ -86,7 +86,7 @@ Yes. You can do anything the MIT license allows you to.
 
 ## Can I donate to this project?
 
-I made this project for my own convenience, and for my general love of TF2 and the community. You are not required to donate at all, and in fact, I would encourage you donate to a local charity instead. If you would like to send me TF2 items, you can [use my trade URL](https://steamcommunity.com/tradeoffer/new/?partner=69070534&token=xF6It4c5), and I will add your name to a list of "Project Contributors" in this repository.
+I made this project for my own convenience, and for my general love of TF2 and the community. You are not required to donate at all, and in fact, I would encourage you donate to a local charity instead. If you would like to send me TF2 items, you can [use my trade URL](https://steamcommunity.com/tradeoffer/new/?partner=69070534&token=72Ka5_zt), and I will add your name to a list of "Project Contributors" in this repository.
 
 ## Where does this script download all of the plugins from?
 
