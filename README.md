@@ -1,5 +1,7 @@
 # TF2ServerForNoobs
 
+###Development version was lost. Script is being recreated and as such, won't be 100% working until this message is removed.###
+
 An all-in-1 TF2 server installation script. From fresh linux install to working Team Fortress 2 dedicated server in minutes! Only 1 console command!
 
 This is the easiest to use "one-click" installer for a dedicated TF2 server!
