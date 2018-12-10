@@ -1,5 +1,7 @@
 # TF2ServerForNoobs
 
+### Development version was lost. Script is being recreated and as such, won't be 100% working until this message is removed.
+
 An all-in-1 TF2 server installation script. From fresh linux install to working Team Fortress 2 dedicated server in minutes! Only 1 console command!
 
 This is the easiest to use "one-click" installer for a dedicated TF2 server!
@@ -24,7 +26,7 @@ Fear not, although this script was designed to save money by not having paid ser
 
 - No slot limitation. You can use this script to make a server for any purpose you wish; highlander, 6s, or a 32-person instant respawn pub.
 
-- Retain full access to the server console. This script abstracts the already convenient LinuxGSM (found here: https://gameservermanagers.com/). You retain full control over your server using LinuxGSM.
+- Retain full access to the server console. This script abstracts the already convenient LinuxGSM (found here: https://linuxgsm.com/). You retain full control over your server using LinuxGSM.
 
 # Requirements
 
