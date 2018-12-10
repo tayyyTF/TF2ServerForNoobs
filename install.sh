@@ -19,7 +19,7 @@ echo $SPACER
 echo "Installing dependencies..."
 dpkg --add-architecture i386
 apt update
-apt -y --assume-yes install mailutils postfix curl wget file bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux lib32gcc1 libstdc++6 libstdc++6:i386 libcurl4-gnutls-dev:i386 libtcmalloc-minimal4:i386
+apt -y --assume-yes install mailutils postfix curl wget file bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq p7zip-full tmux lib32gcc1 libstdc++6 libstdc++6:i386 libcurl4-gnutls-dev:i386 libtcmalloc-minimal4:i386
 echo "Finished installation of dependencies"
 echo $SPACER
 echo "Preparing for server installation"
@@ -43,37 +43,32 @@ wget "https://github.com/tayyyTF/TF2ServerForNoobs/blob/master/resources/mmsourc
 wget "https://github.com/tayyyTF/TF2ServerForNoobs/blob/master/resources/curl.zip?raw=true" -O curl_so.zip
 wget "https://github.com/tayyyTF/TF2ServerForNoobs/blob/master/resources/TFTrue.zip?raw=true" -O TFTrue.zip
 wget "https://github.com/tayyyTF/TF2ServerForNoobs/blob/master/resources/SOAP-TF2DM-master.zip?raw=true" -O SOAPDM.zip
-wget "https://github.com/tayyyTF/TF2ServerForNoobs/blob/master/resources/MGEMod-master.zip?raw=true" -O MGE.zip
+wget "https://github.com/tayyyTF/TF2ServerForNoobs/blob/master/resources/MGEMod-master.7z?raw=true" -O MGE.7z
 wget "https://raw.githubusercontent.com/tayyyTF/TF2ServerForNoobs/master/resources/metamod.vdf" -O metamod.vdf
 #Extract Plugins
-SOURCEMOD_FOLDER="sourcemod"
-METAMOD_FOLDER="metamod"
-SOAPDM_FOLDER="soapdm"
-TFTRUE_FOLDER="tftrue"
-MGE_FOLDER="mge"
-CURL_FOLDER="curl_so"
-mkdir $SOURCEMOD_FOLDER
-mkdir $METAMOD_FOLDER
-mkdir $SOAPDM_FOLDER
-mkdir $TFTRUE_FOLDER
-mkdir $MGE_FOLDER
-mkdir $CURL_FOLDER
-tar -xvzf sourcemod.tar.gz $SOURCEMOD_FOLDER/
-tar -xvzf metamod.tar.gz $METAMOD_FOLDER/
-unzip curl_so.zip -d $CURL_FOLDER/
-unzip SOAPDM.zip -d $SOAPDM_FOLDER/
-unzip MGE.zip -d $MGE_FOLDER/
-unzip TFTrue.zip -d $TFTRUE_FOLDER/
-cp -r $METAMOD_FOLDER/ /home/$DAEMON_ACCOUNT/serverfiles/tf/
+mkdir sourcemod
+mkdir metamod
+mkdir curl_so
+mkdir tftrue
+mkdir soapdm
+mkdir mge
+tar -xvzf sourcemod.tar.gz -C sourcemod/
+tar -xvzf metamod.tar.gz -C metamod/
+7z x MGE.7z -omge/
+unzip -o curl_so.zip -d curl_so/
+unzip -o SOAPDM.zip -d soapdm/
+unzip -o TFTrue.zip -d tftrue/
+cp -r metamod/ /home/$DAEMON_ACCOUNT/serverfiles/tf/
 cp metamod.vdf /home/$DAEMON_ACCOUNT/serverfiles/tf/addons/
-cp -r $SOURCEMOD_FOLDER/ /home/$DAEMON_ACCOUNT/serverfiles/tf/
-cp -r $TFTRUE_FOLDER/ /home/$DAEMON_ACCOUNT/serverfiles/tf/
-cp -r $MGE_FOLDER/maps/ /home/$DAEMON_ACCOUNT/serverfiles/tf/maps/
-cp -r $MGE_FOLDER/addons/ /home/$DAEMON_ACCOUNT/serverfiles/tf/addons/
-cp -r $SOAPDM_FOLDER/addons/ /home/$DAEMON_ACCOUNT/serverfiles/tf/addons/
-cp -r $SOAPDM_FOLDER/cfg/ /home/$DAEMON_ACCOUNT/serverfiles/tf/cfg/
-cp -r $CURL_FOLDER/extensions/ /home/$DAEMON_ACCOUNT/serverfiles/tf/addons/sourcemod/extensions/
+cp -r sourcemod/ /home/$DAEMON_ACCOUNT/serverfiles/tf/
+cp -r tftrue/ /home/$DAEMON_ACCOUNT/serverfiles/tf/
+cp -r mge/maps/ /home/$DAEMON_ACCOUNT/serverfiles/tf/maps/
+cp -r mge/addons/ /home/$DAEMON_ACCOUNT/serverfiles/tf/addons/
+cp -r "soapdm/SOAP-TF2DM-master/addons/" /home/$DAEMON_ACCOUNT/serverfiles/tf/addons/
+cp -r "soapdm/SOAP-TF2DM-master/cfg/" /home/$DAEMON_ACCOUNT/serverfiles/tf/cfg/
+cp -r curl_so/extensions/ /home/$DAEMON_ACCOUNT/serverfiles/tf/addons/sourcemod/extensions/
 echo "Starting server..."
+cd /home/$DAEMON_ACCOUNT/
 ./tf2server start
 #Enable Hourly Scheduled Update Check
 (crontab -l; echo "0 * * * * /home/$DAEMON_ACCOUNT/tf2server update > /dev/null 2>&1") | crontab -
